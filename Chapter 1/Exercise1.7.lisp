@@ -1,5 +1,5 @@
 ;Exercise 1.7
-;2020-01-20
+;2021-01-20
 
 (define (sqrt-iter guess x oldguess)
 	(if (good-enough? guess oldguess) ;if good-enough=true return the guess
